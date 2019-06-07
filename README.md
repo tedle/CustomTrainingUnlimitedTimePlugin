@@ -5,7 +5,7 @@ A plugin for Rocket League using [BakkesMod](https://bakkesmod.com/) that enable
 ## Installation
 
 - Download the [latest release](https://github.com/tedle/CustomTrainingUnlimitedTimePlugin/releases)
-- Unzip to the BakkesMod plugins folder, which can be found by opening BakkesMod and going to ```File->Open BakkesMod Folder```
+- Unzip to the BakkesMod folder, which can be found by opening BakkesMod and going to ```File->Open BakkesMod Folder```
 - Enable the plugin either using the in game plugin manager or by editing the ```cfg/plugins.cfg``` file and adding a line with ```plugin load customtrainingunlimitedtimeplugin```
 
 ## Building
@@ -15,7 +15,7 @@ git clone --recursive https://github.com/tedle/CustomTrainingUnlimitedTimePlugin
 ```
 - Open the solution in Visual Studio 2019 (or newer)
 - Build the solution
-- Copy the files from the ```bin/``` folder to the BakkesMod plugin directory
+- Copy the files from the ```bin/``` folder to the BakkesMod directory
 
 ## License
 

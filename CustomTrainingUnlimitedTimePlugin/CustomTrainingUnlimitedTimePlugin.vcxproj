@@ -90,8 +90,8 @@
       <AdditionalDependencies>BakkesMod.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)bin\"
-xcopy /Y "$(ProjectDir)customtrainingunlimitedtimeplugin.set" "$(SolutionDir)bin\settings\"</Command>
+      <Command>xcopy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)bin\plugins\"
+xcopy /Y "$(ProjectDir)customtrainingunlimitedtimeplugin.set" "$(SolutionDir)bin\plugins\settings\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,8 +121,8 @@ xcopy /Y "$(ProjectDir)customtrainingunlimitedtimeplugin.set" "$(SolutionDir)bin
       <AdditionalDependencies>BakkesMod.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)bin\"
-xcopy /Y "$(ProjectDir)customtrainingunlimitedtimeplugin.set" "$(SolutionDir)bin\settings\"</Command>
+      <Command>xcopy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)bin\plugins\"
+xcopy /Y "$(ProjectDir)customtrainingunlimitedtimeplugin.set" "$(SolutionDir)bin\plugins\settings\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
