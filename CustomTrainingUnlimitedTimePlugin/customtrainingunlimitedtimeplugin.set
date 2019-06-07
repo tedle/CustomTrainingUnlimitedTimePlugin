@@ -1,0 +1,4 @@
+Custom Training Unlimited Time
+1|Toggle unlimited time in custom training|sv_training_unlimited_time
+8|
+9|To make a shortcut, bind a key to the command "toggle sv_training_unlimited_time 0 1"
