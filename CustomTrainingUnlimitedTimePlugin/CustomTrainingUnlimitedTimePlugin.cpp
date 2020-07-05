@@ -1,6 +1,6 @@
 #include "CustomTrainingUnlimitedTimePlugin.h"
 
-BAKKESMOD_PLUGIN(CustomTrainingUnlimitedTimePlugin, "Custom Training Unlimited Time", "1.0.0", PLUGINTYPE_CUSTOM_TRAINING)
+BAKKESMOD_PLUGIN(CustomTrainingUnlimitedTimePlugin, "Custom Training Unlimited Time", "1.0.1", PLUGINTYPE_CUSTOM_TRAINING)
 
 void CustomTrainingUnlimitedTimePlugin::onLoad()
 {
